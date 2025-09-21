@@ -13,6 +13,5 @@ match priority:
 if time_bound == "yes":
     reminder += " that requires immediate attention today!"
 else:
-    reminder = "Note: " + reminder + ". Consider completing it when you have free time."
-
-print("\nReminder:", reminder)
+    reminder += ". Consider completing it when you have free time."
+print(f"Reminder: {reminder}")
