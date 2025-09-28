@@ -1,0 +1,60 @@
+📘 Functions and Data Structures (fns_and_dsa)
+
+This directory contains Python scripts that demonstrate the use of functions, lists, modules, and variable scope in practical programming tasks. Each script focuses on a specific concept and can be run independently.
+
+📂 Files in this Directory
+1. arithmetic_operations.py
+
+Defines a function perform_operation(num1, num2, operation) that performs basic arithmetic:
+
+Operations: add, subtract, multiply, divide.
+
+Handles division by zero gracefully.
+
+Designed to be imported into a provided main.py script for testing.
+
+2. shopping_list_manager.py
+
+A simple shopping list manager using Python lists.
+
+Features:
+
+Add items 🟢
+
+Remove items ❌
+
+View current shopping list 🛒
+
+Exit the program 👋
+
+Menu-driven interface with input validation.
+
+3. explore_datetime.py
+
+Demonstrates usage of Python’s datetime module.
+
+Functions:
+
+display_current_datetime() → prints the current date and time in YYYY-MM-DD HH:MM:SS format.
+
+calculate_future_date(days) → calculates and prints the date after adding a user-specified number of days.
+
+Includes user input validation for days.
+
+4. temp_conversion_tool.py
+
+Temperature conversion tool demonstrating variable scope with global constants:
+
+FAHRENHEIT_TO_CELSIUS_FACTOR
+
+CELSIUS_TO_FAHRENHEIT_FACTOR
+
+Functions:
+
+convert_to_celsius(fahrenheit)
+
+convert_to_fahrenheit(celsius)
+
+User enters a temperature and specifies unit (C or F) to get the converted value.
+
+Raises an error for invalid temperature input.
